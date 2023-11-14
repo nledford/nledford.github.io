@@ -12,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    background: url('./me-1024.jpg');
+    background: url('$lib/images/me-1024.jpg');
     background-size: cover;
     width: 192px;
     height: 192px;
