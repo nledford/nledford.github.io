@@ -1,0 +1,14 @@
+body {
+  background-color: $background-color;
+  color: $foreground-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  @extend %transition;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}

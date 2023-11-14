@@ -1,0 +1,8 @@
+$background-color: #000D06;
+$foreground-color: invert($background-color);
+
+$link-color: #53A670;
+$link-hover-color: lighten($link-color, 10%);
+
+$img-border-color: $link-color;
+$img-border-hover-color: $link-hover-color;

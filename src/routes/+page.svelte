@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Portrait from "../components/Portrait.svelte";
+  import Introduction from "../components/Introduction.svelte";
+  import SocialMediaLinks from "../components/SocialMediaLinks.svelte";
+</script>
+
+<main>
+  <div class="flex h-screen">
+    <div class="container m-auto">
+      <Portrait />
+
+      <Introduction />
+
+      <SocialMediaLinks />
+    </div>
+  </div>
+</main>
+
+<style lang="scss">
+
+</style>
