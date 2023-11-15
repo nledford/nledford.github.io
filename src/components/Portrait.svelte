@@ -1,7 +1,3 @@
-
-
-
-
 <section>
   <div class="me"></div>
 </section>
