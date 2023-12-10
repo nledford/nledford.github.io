@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d build -t true"
   },
   "devDependencies": {
+    "@icons-pack/svelte-simple-icons": "^4.0.0-rc.3",
     "@skeletonlabs/skeleton": "^2.6.0",
     "@skeletonlabs/tw-plugin": "^0.3.0",
     "@sveltejs/adapter-static": "^2.0.3",
@@ -37,8 +38,5 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.7"
   },
-  "type": "module",
-  "dependencies": {
-    "@icons-pack/svelte-simple-icons": "^3.0.0"
-  }
+  "type": "module"
 }

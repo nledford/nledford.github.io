@@ -7,6 +7,7 @@
 		instagram,
 		lastfm,
 		linkedin,
+		threads,
 		twitter
 	} from '../stores/socialMediaStore';
 </script>
@@ -18,6 +19,7 @@
 		<SocialMediaLink socialMediaLink={instagram} />
 		<SocialMediaLink socialMediaLink={lastfm} />
 		<SocialMediaLink socialMediaLink={linkedin} />
+		<SocialMediaLink socialMediaLink={threads} />
 		<SocialMediaLink socialMediaLink={twitter} />
 	</div>
 </section>
