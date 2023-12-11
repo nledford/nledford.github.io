@@ -32,8 +32,3 @@ export const threads: SocialMediaLink = {
 	url: 'https://www.threads.net/@nateledford',
 	title: 'Threads'
 };
-
-export const twitter: SocialMediaLink = {
-	url: 'https://twitter.com/nateledford',
-	title: 'Twitter'
-};

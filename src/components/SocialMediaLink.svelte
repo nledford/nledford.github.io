@@ -7,8 +7,7 @@
 		Siinstagram as Instagram,
 		Silastdotfm as Lastfm,
 		Silinkedin as Linkedin,
-		Sithreads as Threads,
-		Sitwitter as Twitter
+		Sithreads as Threads
 	} from '@icons-pack/svelte-simple-icons';
 
 	export let socialMediaLink: SocialMediaLink;
@@ -36,8 +35,6 @@
 		<Linkedin size={size} title={title} />
 	{:else if title === 'Threads'}
 		<Threads size={size} title={title} />
-	{:else if title === 'Twitter'}
-		<Twitter size={size} title={title} />
 	{/if}
 </a>
 
