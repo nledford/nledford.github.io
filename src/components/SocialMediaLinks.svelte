@@ -7,7 +7,7 @@
 		instagram,
 		lastfm,
 		linkedin,
-		threads,
+		threads
 	} from '../stores/socialMediaStore';
 </script>
 

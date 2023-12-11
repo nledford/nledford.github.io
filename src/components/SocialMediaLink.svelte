@@ -17,37 +17,32 @@
 	const size = 45;
 </script>
 
-<a
-	href={url}
-	title={title}
-	target="_social"
-	rel="noopener noreferrer"
->
+<a href={url} {title} target="_social" rel="noopener noreferrer">
 	{#if title === 'Facebook'}
-		<Facebook size={size} title={title} />
+		<Facebook {size} {title} />
 	{:else if title === 'Github'}
-		<Github size={size} title={title} />
+		<Github {size} {title} />
 	{:else if title === 'Instagram'}
-		<Instagram size={size} title={title} />
+		<Instagram {size} {title} />
 	{:else if title === 'Last.fm'}
-		<Lastfm size={size} title={title} />
-	{:else if title === 'LinkedIn' }
-		<Linkedin size={size} title={title} />
+		<Lastfm {size} {title} />
+	{:else if title === 'LinkedIn'}
+		<Linkedin {size} {title} />
 	{:else if title === 'Threads'}
-		<Threads size={size} title={title} />
+		<Threads {size} {title} />
 	{/if}
 </a>
 
 <style lang="scss">
-  a {
-    color: $link-color;
-    opacity: 0.9;
+	a {
+		color: $link-color;
+		opacity: 0.9;
 
-    @extend %transition;
+		@extend %transition;
 
-    &:hover {
-      color: $link-hover-color;
-      opacity: 1;
-    }
-  }
+		&:hover {
+			color: $link-hover-color;
+			opacity: 1;
+		}
+	}
 </style>
