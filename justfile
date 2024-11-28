@@ -7,7 +7,7 @@ dev:
 build:
   bunx vite build
 
-deploy:
+deploy: build
   bunx gh-pages -d build -t true
 
 update:
