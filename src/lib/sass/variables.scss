@@ -1,8 +1,10 @@
+@use "sass:color";
+
 $background-color: #000d06;
-$foreground-color: invert($background-color);
+$foreground-color: color.invert($background-color);
 
 $link-color: #53a670;
-$link-hover-color: lighten($link-color, 10%);
+$link-hover-color: color.adjust($link-color, $lightness: 10%);
 
 $img-border-color: $link-color;
 $img-border-hover-color: $link-hover-color;
