@@ -3,6 +3,11 @@ export interface SocialMediaLink {
 	title: string;
 }
 
+export const bluesky: SocialMediaLink = {
+	url: 'https://bsky.app/profile/nateledford.com',
+	title: 'Bluesky'
+};
+
 export const facebook: SocialMediaLink = {
 	url: 'https://facebook.com/nateledford',
 	title: 'Facebook'

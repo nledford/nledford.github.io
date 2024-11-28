@@ -2,6 +2,7 @@
 	import SocialMediaLink from './SocialMediaLink.svelte';
 
 	import {
+		bluesky,
 		facebook,
 		github,
 		instagram,
@@ -13,6 +14,7 @@
 
 <section>
 	<div class="flex gap-4 justify-center">
+		<SocialMediaLink socialMediaLink={bluesky} />
 		<SocialMediaLink socialMediaLink={facebook} />
 		<SocialMediaLink socialMediaLink={github} />
 		<SocialMediaLink socialMediaLink={instagram} />
