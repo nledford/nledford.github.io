@@ -8,7 +8,7 @@ build:
   bunx vite build
 
 deploy:
-    gh-pages -d build -t true
+  bunx gh-pages -d build -t true
 
 update:
     bunx ncu -u
