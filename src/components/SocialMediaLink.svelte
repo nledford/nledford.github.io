@@ -10,7 +10,11 @@
 		Sithreads as Threads
 	} from '@icons-pack/svelte-simple-icons';
 
-	export let socialMediaLink: SocialMediaLink;
+	interface Props {
+		socialMediaLink: SocialMediaLink;
+	}
+
+	let { socialMediaLink }: Props = $props();
 
 	const title = socialMediaLink.title;
 	const url = socialMediaLink.url;
